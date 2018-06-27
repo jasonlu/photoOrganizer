@@ -1,0 +1,23 @@
+{
+  "name": "photoorganizer",
+  "version": "1.0.0",
+  "description": "Move photo files from source to `output/yyyy/mm/dd/filename.ext`",
+  "main": "src/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:build": "tsc --watch",
+    "start": "node ./src/app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dist-exiftool": "^10.53.0",
+    "minimist": "^1.2.0",
+    "node-exiftool": "^2.3.0",
+    "node-filelist": "^1.0.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.6"
+  }
+}
